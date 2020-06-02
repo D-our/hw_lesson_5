@@ -1,0 +1,153 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat-Bold.woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat-Light.woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #82899B;
+    width: 1200px;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2431;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2431
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-right: 35px;
+    color: #1F2431;
+    font-size: 16px;
+}
+
+i {
+    padding-left: 10px;
+    color: #1F2431;
+}
+
+h1,
+h3,
+p,
+a {
+    align-content: flex-start;
+}
+
+strong {
+    color: #1F2431;
+}
+
+.container {
+    margin-top: 38px;
+}
+
+.top__line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top__line--img {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    padding: 0 10px;
+}
+
+.bend {
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+}
+
+.wallet {
+    width: 1008px;
+    display: flex;
+    align-items: center;
+    margin-top: 59px;
+}
+
+.wallet img {
+    width: 593px;
+}
+
+.wallet h3 {
+    margin-top: 92px;
+}
+
+.wallet p {
+    margin-top: 22px;
+    padding: 12px 142px 0 0;
+}
+
+.wallet a {
+    margin-top: 25px;
+}
+
+.block__1,
+.block__2,
+.block__3,
+.block__4 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 565px;
+    background: #FAFCFF;
+    margin: 10px 5px;
+    border-radius: 6px;
+    padding: 45px 40px 40px 40px;
+}
+
+.bg_img1 {
+    background-image: url("img/images/info__img.svg");
+}
+
+.block__1 img,
+.block__2 img,
+.block__3 img,
+.block__4 img {
+    display: flex;
+    margin: 50px auto;
+}
+
+.btn {
+    background-color: #315efb;
+    color: white;
+    text-decoration: none;
+    padding: 13px 50px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
