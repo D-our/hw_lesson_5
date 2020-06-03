@@ -14,7 +14,8 @@
 
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -22,7 +23,6 @@ body {
     font-weight: 300;
     font-style: normal;
     color: #82899B;
-    width: 1200px;
     background-color: #FFFFFF;
 }
 
@@ -47,12 +47,14 @@ ul {
 
 li {
     margin-right: 35px;
-    color: #1F2431;
-    font-size: 16px;
 }
 
-i {
+li a {
+    font-size: 16px;
     padding-left: 10px;
+}
+
+a {
     color: #1F2431;
 }
 
@@ -67,29 +69,29 @@ strong {
     color: #1F2431;
 }
 
-.container {
-    margin-top: 38px;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.top__line {
+main {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    width: 1140px;
+}
+
+.container {
+    margin-top: 38px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .top__line--img {
     display: flex;
-    flex-direction: row;
 }
 
 .logo {
     padding: 0 10px;
-}
-
-.bend {
-    display: flex;
-    flex-direction: row;
-    width: 1140px;
 }
 
 .wallet {
@@ -99,8 +101,12 @@ strong {
     margin-top: 59px;
 }
 
+.wallet__half {
+    width: 50%;
+}
+
 .wallet img {
-    width: 593px;
+    width: 100%;
 }
 
 .wallet h3 {
@@ -116,25 +122,28 @@ strong {
     margin-top: 25px;
 }
 
-.block__1,
-.block__2,
-.block__3,
-.block__4 {
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 565px;
+.block__1 {
     background: #FAFCFF;
     margin: 10px 5px;
     border-radius: 6px;
     padding: 45px 40px 40px 40px;
 }
 
-.block__1 img,
-.block__2 img,
-.block__3 img,
-.block__4 img {
+.block__bend {
+    width: 98%;
+}
+
+.block__1 img {
     display: flex;
     margin: 50px auto;
+}
+
+.block__bend--r {
+    float: right;
+}
+
+.l {
+    float: left;
 }
 
 .btn {
@@ -146,4 +155,12 @@ strong {
     margin-top: 20px;
     text-transform: uppercase;
     border-radius: 50px;
+}
+
+.fab {
+    color: #1F2431;
+}
+
+.fab:hover {
+    color: #315efb;
 }
