@@ -77,7 +77,6 @@ nav {
 
 main {
     display: flex;
-    width: 1140px;
 }
 
 .container {
@@ -95,7 +94,6 @@ main {
 }
 
 .wallet {
-    width: 1008px;
     display: flex;
     align-items: center;
     margin-top: 59px;
@@ -130,20 +128,12 @@ main {
 }
 
 .block__bend {
-    width: 98%;
+    width: 50%;
 }
 
 .block__1 img {
     display: flex;
     margin: 50px auto;
-}
-
-.block__bend--r {
-    float: right;
-}
-
-.l {
-    float: left;
 }
 
 .btn {
